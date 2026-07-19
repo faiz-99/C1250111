@@ -1,0 +1,190 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+
+}
+
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#111;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+}
+
+
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+
+
+}
+
+
+
+nav a:hover{
+color:orange;
+}
+
+.hero{
+height:500px;
+background:url("gym\ bag.avif") center/cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:black;
+text-align:center;
+color: white;
+}
+
+.hero h2{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#111;
+padding:15px 30px;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.btn:hover{
+background:green;
+}
+
+section{
+padding:60px 10%;
+}
+
+section h2{
+text-align:center;
+margin-bottom:30px;
+font-size:35px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+}
+
+table th,
+table td{
+border:1px solid #ccc;
+padding:15px;
+text-align:center;
+}
+
+table th{
+background:#222;
+color:white;
+}
+
+.gallery{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.card{
+background:white;
+width:30%;
+text-align:center;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+}
+
+form{
+background:white;
+max-width:500px;
+margin:auto;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+form label{
+display:block;
+margin-top:15px;
+}
+
+form input,
+form select{
+width:100%;
+padding:10px;
+margin-top:5px;
+}
+
+button{
+width:100%;
+padding:12px;
+margin-top:20px;
+background:orange;
+color:white;
+border:none;
+font-size:18px;
+cursor:pointer;
+}
+
+button:hover{
+background:darkorange;
+}
+
+footer{
+background:#111;
+color:white;
+width: 100%;
+text-align:center;
+padding:20px;
+margin-top:40px;
+
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+
+}
+
+.gallery{
+flex-direction:column;
+}
+
+.card{
+width:100%;
+}
+
+.hero h2{
+font-size:35px;
+}
+
+}
